@@ -1,7 +1,25 @@
-body body { 
+body { 
     display: flex; 
     justify-content: center; 
     align-items: center; 
     height: 100vh; 
     margin: 0; 
+}
+
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* Redondear esquinas */
+  cursor: pointer;
 }
